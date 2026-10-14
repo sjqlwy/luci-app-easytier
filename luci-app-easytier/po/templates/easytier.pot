@@ -72,6 +72,14 @@ msgstr ""
 msgid "Allow traffic from WAN to EasyTier virtual network"
 msgstr ""
 
+#: applications/luci-app-easytier/luasrc/view/easytier/easytier_unified_log.htm:210
+msgid "Stop Auto Refresh"
+msgstr ""
+
+#: applications/luci-app-easytier/luasrc/view/easytier/easytier_unified_log.htm:210
+msgid "Start Auto Refresh"
+msgstr ""
+
 #: applications/luci-app-easytier/luasrc/view/easytier/easytier_log.htm:30
 #: applications/luci-app-easytier/luasrc/view/easytier/easytierweb_log.htm:30
 msgid "Auto Refresh"
@@ -605,8 +613,8 @@ msgstr ""
 msgid ""
 "Official Web Console: <a href=\"https://easytier.cn/web\" target=\"_blank"
 "\">https://easytier.cn/web</a><br>Official Configuration File Generator: <a "
-"href=\"https://easytier.cn/web/index.html#/config_generator\" target=\"_blank"
-"\">https://easytier.cn/web/index.html#/config_generator</a><br>Please note "
+"href=\"https://easytier.cn/assistant\" target=\"_blank"
+"\">https://easytier.cn/assistant</a><br>Please note "
 "to set the RPC port to 15888"
 msgstr ""
 
@@ -898,10 +906,12 @@ msgstr ""
 
 #: applications/luci-app-easytier/luasrc/model/cbi/easytier.lua:65
 msgid ""
-"Web configuration server address. (-w parameter)<br>For a self-hosted Web "
-"server, use the format: udp://server_address:22020/username<br>For the "
-"official Web server, use the format: username<br>Official Web Console: <a "
-"href='https://easytier.cn/web'>easytier.cn/web</a>"
+"Web configuration server address. (-w parameter)<br>Since EasyTier 2.7.0 a "
+"full URL is required, the token-only shorthand is no longer supported<br>Self-"
+"hosted Web server, use the format: udp://server_address:22020/username<br>"
+"Official Web server, use the format: udp://config-server.easytier.cn:22020/"
+"username<br>Official Web Console: <a href='https://easytier.cn/web'>easytier."
+"cn/web</a>"
 msgstr ""
 
 #: applications/luci-app-easytier/luasrc/model/cbi/easytier.lua:365
@@ -1090,3 +1100,425 @@ msgstr ""
 msgid "If true, allow relay kcp packets from foreign network. default is false (not forward foreign network kcp packets). (--enable-relay-foreign-network-kcp parameter)"
 msgstr ""
 
+msgid "Auto Configure Interface"
+msgstr ""
+
+msgid "Automatically create and configure the EasyTier network interface"
+msgstr ""
+
+msgid "Interface Netmask"
+msgstr ""
+
+msgid "Subnet mask for the EasyTier interface (default: 255.0.0.0)"
+msgstr ""
+
+msgid "Auto Configure Firewall"
+msgstr ""
+
+msgid "Automatically add and manage firewall rules"
+msgstr ""
+
+msgid "GitHub Proxy URLs"
+msgstr ""
+
+msgid "Used to accelerate GitHub downloads when fetching binaries online"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "No proxy configured"
+msgstr ""
+
+msgid "No proxy configured, using default proxy"
+msgstr ""
+
+msgid "Please enter proxy URL"
+msgstr ""
+
+msgid "Invalid URL format"
+msgstr ""
+
+msgid "Proxy already exists"
+msgstr ""
+
+msgid "Proxy added successfully"
+msgstr ""
+
+msgid "Space-separated list of GitHub proxy URLs for downloading binaries. Leave empty to use default proxies."
+msgstr ""
+
+msgid "Fallback Version"
+msgstr ""
+
+msgid "Fallback version to use when unable to fetch the latest version from GitHub."
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "EasyTier Core"
+msgstr ""
+
+msgid "EasyTier Web"
+msgstr ""
+
+msgid "All Levels"
+msgstr ""
+
+msgid "Auto Refresh"
+msgstr ""
+
+msgid "Stop Auto Refresh"
+msgstr ""
+
+msgid "Start Auto Refresh"
+msgstr ""
+
+msgid "Clear Logs"
+msgstr ""
+
+msgid "Download Log"
+msgstr ""
+
+msgid "Loading logs..."
+msgstr ""
+
+msgid "No logs available"
+msgstr ""
+
+msgid "Logs cleared"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
+
+msgid "Memory"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Refresh Version"
+msgstr ""
+
+msgid "Clear cached version and fetch latest version from GitHub?"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Web Console"
+msgstr ""
+
+msgid "Service not running"
+msgstr ""
+
+msgid "Collecting data..."
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Quick Actions"
+msgstr ""
+
+msgid "Restart Service"
+msgstr ""
+
+msgid "Restart EasyTier service?"
+msgstr ""
+
+msgid "Please wait, operation in progress..."
+msgstr ""
+
+msgid "Restarting service..."
+msgstr ""
+
+msgid "Upload Program"
+msgstr ""
+
+msgid "Upload EasyTier Binary"
+msgstr ""
+
+msgid "Drag and drop file here or click to browse"
+msgstr ""
+
+msgid "Select File"
+msgstr ""
+
+msgid "Uploading..."
+msgstr ""
+
+msgid "Supported Files"
+msgstr ""
+
+msgid "Core service binary"
+msgstr ""
+
+msgid "Command line tool"
+msgstr ""
+
+msgid "Web console binary"
+msgstr ""
+
+msgid "Embedded web console"
+msgstr ""
+
+msgid "Download from"
+msgstr ""
+
+msgid "Upload Successful"
+msgstr ""
+
+msgid "Binary uploaded successfully. Restart the service to apply changes?"
+msgstr ""
+
+msgid "Restart the service to apply changes?"
+msgstr ""
+
+msgid "Later"
+msgstr ""
+
+msgid "Restart Now"
+msgstr ""
+
+msgid "Invalid file name"
+msgstr ""
+
+msgid "Only easytier binaries or compressed archives (.zip, .tar.gz, .tar) are allowed"
+msgstr ""
+
+msgid "Upload failed"
+msgstr ""
+
+msgid "Network error"
+msgstr ""
+
+msgid "Service restarted successfully"
+msgstr ""
+
+msgid "Restart failed"
+msgstr ""
+
+msgid "No changes to save"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Save Configuration"
+msgstr ""
+
+msgid "Configuration saved successfully"
+msgstr ""
+
+msgid "Save failed"
+msgstr ""
+
+msgid "Recommended"
+msgstr ""
+
+msgid "Will be ignored, use embed version instead"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "Files will be uploaded to the paths specified above"
+msgstr ""
+
+msgid "EasyTier console uses easytier-web-embed. The easytier-web binary will be rejected during upload validation."
+msgstr ""
+
+msgid "Compressed archive containing binaries"
+msgstr ""
+
+msgid "Drag *.tar.gz / *.zip / easytier binaries here or click to select file"
+msgstr ""
+
+msgid "Used when unable to fetch the latest version during online download"
+msgstr ""
+
+msgid "Error: Program not running! Please start the program and refresh"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Failed to connect to RPC server. Please check if the RPC port is set to 15888 in the configuration."
+msgstr ""
+
+msgid "Self-hosted Web Console"
+msgstr ""
+
+msgid "Enable Self-hosted Web Console"
+msgstr ""
+
+msgid "Log Level"
+msgstr ""
+
+msgid "Runtime log located at"
+msgstr ""
+
+msgid "viewable in the log section"
+msgstr ""
+
+msgid "Log levels"
+msgstr ""
+
+msgid "parameter"
+msgstr ""
+
+msgid "Example"
+msgstr ""
+
+msgid "current device IP or domain"
+msgstr ""
+
+msgid "API port"
+msgstr ""
+
+msgid "GeoIP2 database file path used to locate the client"
+msgstr ""
+
+msgid "Defaults to an embedded file (country-level information only)"
+msgstr ""
+
+msgid "GEOIP Database Path"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copied"
+msgstr ""
+
+msgid "Duplicate extra parameter"
+msgstr ""
+
+msgid "VPN Portal Listen Address"
+msgstr ""
+
+msgid "WireGuard VPN portal listen address, allowing other VPN clients to connect.<br>Since EasyTier 2.7.0 only wg://HOST:PORT is accepted; the client network can no longer be appended to the URL, please add each client in \"VPN Portal Clients\" below (--vpn-portal parameter)"
+msgstr ""
+
+msgid "Only wg://HOST:PORT is accepted since EasyTier 2.7.0, please fill the client network into \"VPN Portal Clients\""
+msgstr ""
+
+msgid "VPN Portal Clients"
+msgstr ""
+
+msgid "One WireGuard client per entry in the form NAME=CIDR, for example client1=10.14.14.1/24.<br>NAME may contain letters, digits and dashes only; the address must be a usable host address inside the client network. (--vpn-portal-client parameter)"
+msgstr ""
+
+msgid "Invalid client, expected NAME=CIDR, for example client1=10.14.14.1/24"
+msgstr ""
+
+msgid "VPN Portal Private Key"
+msgstr ""
+
+msgid "Base64 encoded 32-byte WireGuard private key of the portal.<br>Required since EasyTier 2.7.0, the portal will not start without it. It is handed to easytier-core through an environment variable so that it never shows up in the process list. (--vpn-portal-private-key parameter)"
+msgstr ""
+
+msgid "Disable relay quic"
+msgstr ""
+
+msgid "If true, disable relaying quic packets, avoiding consuming too much bandwidth. (--disable-relay-quic parameter)"
+msgstr ""
+
+msgid "Relay foreign network quic"
+msgstr ""
+
+msgid "If true, allow relaying quic packets from foreign networks. (--enable-relay-foreign-network-quic parameter)"
+msgstr ""
+
+msgid "Magic DNS Zone"
+msgstr ""
+
+msgid "Top level DNS zone used by Magic DNS, default is et.net. Only takes effect when Magic DNS is enabled. (--tld-dns-zone parameter)"
+msgstr ""
+
+msgid "Instance Receive Rate Limit"
+msgstr ""
+
+msgid "the maximum inbound bps limit for this network instance, default is no limit. unit: BPS (bytes per second). (--instance-recv-bps-limit parameter)"
+msgstr ""
+
+msgid "Socket Mark"
+msgstr ""
+
+msgid "Set SO_MARK on all underlay sockets, Linux only and requires CAP_NET_ADMIN. Usually used together with policy routing. (--socket-mark parameter)"
+msgstr ""
+
+msgid "Lazy P2P"
+msgstr ""
+
+msgid "Only try to establish P2P connections when traffic actually needs to be forwarded. (--lazy-p2p parameter)"
+msgstr ""
+
+msgid "Need P2P"
+msgstr ""
+
+msgid "Require a P2P connection before forwarding traffic through relays. (--need-p2p parameter)"
+msgstr ""
+
+msgid "Disable UPnP"
+msgstr ""
+
+msgid "EasyTier 2.7.0 tries to map listener ports through UPnP/NAT-PMP by default. Enable this to turn the automatic port mapping off. (--disable-upnp parameter)"
+msgstr ""
+
+msgid "STUN Servers"
+msgstr ""
+
+msgid "Custom UDP STUN servers used for NAT type detection and hole punching. Leave empty to use the built-in defaults. (--stun-servers parameter)"
+msgstr ""
+
+msgid "STUN Servers (TCP)"
+msgstr ""
+
+msgid "Custom TCP STUN servers used for NAT type detection and hole punching. Leave empty to use the built-in defaults. (--tcp-stun-servers parameter)"
+msgstr ""
+
+msgid "Heartbeat Minimum Response Time (ms)"
+msgstr ""
+
+msgid "Minimum heartbeat response delay used by the config server when measuring client latency"
+msgstr ""
+
+msgid "Heartbeat Timeout (ms)"
+msgstr ""
+
+msgid "How long a client may stay silent before the config server marks it offline"
+msgstr ""
+
+msgid "Gateway Peer URL"
+msgstr ""
+
+msgid "Peer URL used by this web instance when it works as a gateway"
+msgstr ""
+
+msgid "Gateway Relay Data"
+msgstr ""
+
+msgid "Allow this web gateway instance to relay data traffic"
+msgstr ""
